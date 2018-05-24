@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 # Bundle app source
 COPY build /usr/src/app
-RUN npm install -g serve-https
+RUN npm install -g local-web-server
 
-EXPOSE 5000
-CMD [ "serve-https" ]
+EXPOSE 8000
+CMD [ "ws", "--https" ]
