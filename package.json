@@ -2,7 +2,6 @@
   "name": "gutenburg",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://elduderino420.github.io/GutenBorgFrontend/",
   "dependencies": {
     "@material-ui/core": "^1.0.0",
     "@material-ui/icons": "^1.0.0",
