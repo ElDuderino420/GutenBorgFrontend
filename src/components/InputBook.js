@@ -79,8 +79,8 @@ class InputBook extends Component {
 
         return (
             <Paper className={classes.root}>
-                <Input placeholder="Input Book Title" onChange={this.updateBook} value={this.state.input} className={classes.input}/>
-                <Button className={classes.button} variant="raised" color="primary" onClick={this.runQuery}>
+                <Input id="book" placeholder="Input Book Title" onChange={this.updateBook} value={this.state.input} className={classes.input}/>
+                <Button id="run" className={classes.button} variant="raised" color="primary" onClick={this.runQuery}>
                     Query
                     <Send className={classes.rightIcon}></Send>
                 </Button>
