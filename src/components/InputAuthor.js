@@ -6,6 +6,7 @@ import Input from '@material-ui/core/Input';
 import Send from '@material-ui/icons/Send';
 import Button from '@material-ui/core/Button';
 import GoogleApiWrapper from './Map';
+import MapCity from './MapCity';
 import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
@@ -94,7 +95,7 @@ class InputAuthor extends Component {
                 </Typography>
                 {this.state.err && <p>{this.state.err.message}</p>}
                 {this.state.loading && <CircularProgress className={classes.loader}/>}
-                {this.state.plot.length>0 && <GoogleApiWrapper data={this.state.plot}></GoogleApiWrapper>}
+                {this.state.plot.length>0 && <MapCity data={this.state.plot}></MapCity>}
                 <Table>
                     <TableHead>
                         <TableRow>
