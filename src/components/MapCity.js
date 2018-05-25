@@ -16,6 +16,7 @@ class MapCity extends Component {
         
             return (
                 <Map
+                    id='map'
                     isMarkerShown
                     googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu7L1Cc212OZKjqBpEStL6z97IGjLeWt8&v=3.exp&libraries=geometry,drawing,places"
                     loadingElement={<div style={{ height: `100%` }} />}
