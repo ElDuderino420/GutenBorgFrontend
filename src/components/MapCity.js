@@ -14,7 +14,6 @@ class MapCity extends Component {
                 </GoogleMap>
             ))    
         
-        if (this.props.data && this.props.data.length > 0 && (this.props.selectedQuery === "2" || this.props.selectedQuery === "3")){
             return (
                 <Map
                     isMarkerShown
@@ -24,8 +23,6 @@ class MapCity extends Component {
                     mapElement={<div style={{ height: `90%` }} />}
                 />
             )
-        } 
-        return <span></span>
     }
 }
 
