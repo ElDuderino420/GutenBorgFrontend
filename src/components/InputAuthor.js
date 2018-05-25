@@ -5,7 +5,7 @@ import { withStyles, CircularProgress, TableHead, Table, TableRow, TableCell, Ta
 import Input from '@material-ui/core/Input';
 import Send from '@material-ui/icons/Send';
 import Button from '@material-ui/core/Button';
-import GoogleApiWrapper from './Map';
+//import GoogleApiWrapper from './Map';
 import MapCity from './MapCity';
 import Typography from '@material-ui/core/Typography';
 
